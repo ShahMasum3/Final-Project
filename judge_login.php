@@ -1,5 +1,7 @@
 <?php
 session_start();
+<a href="admin.html">Go to Admin Page</a>
+
 
 // FIXED DB connection for InfinityFree
 $servername = "sql301.infinityfree.com";
