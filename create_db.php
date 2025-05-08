@@ -1,4 +1,7 @@
 <?php
+<a href="judge.html">Go to Judge Page</a>
+<a href="database.html">Go to Database Page</a>
+
 $conn = mysqli_connect("localhost", "root", "");
 mysqli_query($conn, "CREATE DATABASE IF NOT EXISTS grading_system");
 mysqli_select_db($conn, "grading_system");
