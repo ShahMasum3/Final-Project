@@ -1,4 +1,6 @@
 <?php
+<a href="admin.html">Go to Admin Page</a>
+
 session_start();
 if (!isset($_SESSION["judge_id"])) {
   header("Location: judge_login.php");
