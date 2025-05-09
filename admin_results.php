@@ -1,10 +1,11 @@
 <?php
+include 'connect.php';
 session_start();
 if (!isset($_SESSION["admin"])) {
   header("Location: admin_login.php");
   exit;
 }
-$conn = mysqli_connect("localhost", "root", "", "grading_system");
+
 
 $sql = "SELECT group_no, AVG(total) AS avg_score FROM scores GROUP BY group_no";
 $res = mysqli_query($conn, $sql);
