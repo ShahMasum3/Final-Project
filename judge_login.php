@@ -1,4 +1,4 @@
-[2:47 AM, 5/9/2025] .: <?php
+ <?php
 $host = "sql3.freesqldatabase.com";
 $username = "sql3777783";
 $password = "cXZz9yKAvx";
@@ -9,7 +9,7 @@ $conn = mysqli_connect($host, $username, $password, $database, $port);
 
 // REMOVE THIS LINE:
 // echo "Connected successfully! Added connect.php";
-[2:54 AM, 5/9/2025] .: <?php
+ <?php
 session_start();
 include 'connect.php';
 
