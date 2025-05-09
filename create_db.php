@@ -24,4 +24,11 @@ mysqli_query($conn, "
     total INT
   )
 ");
+mysqli_query($conn, "
+    CREATE TABLE IF NOT EXISTS judges (
+        id INT AUTO_INCREMENT PRIMARY KEY,
+        username VARCHAR(50),
+        password VARCHAR(100)
+    )
+");
 ?>
