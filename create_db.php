@@ -3,8 +3,7 @@
 include 'connect.php';
 ?>
 
-<a href="judge.html">Go to Judge Page</a>
-<a href="database.html">Go to Database Page</a>
+
 
 <?php
 
