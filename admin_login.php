@@ -1,6 +1,7 @@
 <?php
+include 'connect.php';
 session_start();
-$conn = mysqli_connect("localhost", "root", "", "grading_system");
+
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $user = $_POST["username"];
