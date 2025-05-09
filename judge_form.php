@@ -1,5 +1,7 @@
 <?php
+include 'connect.php';
 <a href="admin.html">Go to Admin Page</a>
+
 
 <a href="database.html">Go to Database Page</a>
 
